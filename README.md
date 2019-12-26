@@ -8,10 +8,9 @@ To solve with problem I have provided two solutions. First is the classification
 
 ## Preprocessing
 As the data provided is in the form of multiple nested json strings, the first task is to flatten the dataframe. Next we remove the unnecessary columns(authors,cities,etc.) and keep the data from only the object. 
-There are 19 distinct status types which tell us about what latest action was taken on the application. We seperate these statuses into 3 categories namely:
-1. Approved
-2. Disapproved
-3. In process
+There are 19 distinct status types which tell us about what latest action was taken on the application. We seperate these statuses into 2 categories namely:
+1. Approved (Patented Case)
+2. Disapproved (All other statuses)
 
 The Next step is to clean the title and Summary texts. The following steps are taken for text cleaning:
 1. Change characters to lowercase.
