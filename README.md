@@ -48,4 +48,4 @@ The system supports two APIs:
 In addition, to decide when to update the model, everytime we record the true label of the patent, we predict the label and check if the model predicts it correctly. After 5 failed attempts at predicting the right label, we call the update_model fuction that retrains the model with the new recorded data.
 
 To check, the APIs, we use Postman to send new data to the system and get back a prediction:
-![Alt text](https://github.com/Ankitj03/PatentClassifier/blob/master/Screen Shot 2019-12-26 at 7.16.00 PM.png)
+![Alt text](https://github.com/Ankitj03/PatentClassifier/blob/master/Screen%20Shot%202019-12-26%20at%207.16.00%20PM.png)
